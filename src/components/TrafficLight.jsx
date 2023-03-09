@@ -5,8 +5,8 @@ export function TrafficLight() {
   const [color, setColor] = useState("red");
   return (
     <div className="flex flex-col justify-center items-center animate-wiggle">
-      <div className=" bg-black h-[200px] w-[25px]"></div>
-      <div className="flex flex-col bg-black h-[400px] w-[150px]">
+      <div className="bg-black h-[200px] w-[25px]"></div>
+      <div className="flex flex-col bg-gradient-to-b from-black to-gray-900 bg-black h-[400px] w-[150px]">
         <div
           className={clsx(
             "h-1/3 w-full scale-75 aspect-square bg-red-600 rounded-full",
