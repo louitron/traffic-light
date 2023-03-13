@@ -15,7 +15,7 @@ module.exports = {
         cardh: "500px",
       },
       animation: {
-        "wiggle": 'wiggle 1s ease-in-out infinite',
+        wiggle: "wiggle 1s ease-in-out infinite",
         "spin-slow": "spin 3s linear infinite",
       },
     },

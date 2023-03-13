@@ -25,7 +25,7 @@ export function TrafficLight() {
         <div
           className={clsx(
             "h-1/3 w-full scale-75 aspect-square bg-green-600 rounded-full",
-            color === "green" && " bg-green-500 shadow-2xl shadow-green-00/50"
+            color === "green" && " bg-green-500 shadow-2xl shadow-green-200/50"
           )}
           onClick={() => setColor("green")}
         ></div>
